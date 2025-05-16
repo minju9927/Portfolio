@@ -399,9 +399,9 @@
   }
 
   /* s4 */
-#s4{
-  padding:  0 0 10% 0;
-}
+  #s4 {
+    padding: 0 0 10% 0;
+  }
 
   /*#s4 .rel {
     padding: 0 3rem;
@@ -416,9 +416,23 @@
     width: 48rem;
   }
 
+  .project-lst,
+  .content-lst {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .project-lst li,
   .content-lst li {
     width: calc(50% - 2rem);
+    margin-bottom: 1rem;
   }
+
+  .card,
+  .content-card {
+    height: 25rem;
+  }
+
   /* s5 */
 
   .footer {
@@ -954,14 +968,24 @@
 }
 
 @media screen and (max-width:799px) {
-.card{
-  height: 22rem;
-}
+  .card {
+    height: 22rem;
+  }
 
+  .project-lst li,
   .content-lst li {
     width: 80%;
     max-width: 60rem;
-    margin: 0 auto 3rem;
+    /* margin: 0 auto 3rem; */
+  }
+
+  .content-card,
+  .card {
+    border-radius: 2rem;
+  }
+
+  .content-card::after {
+    border-radius: 0 0 2rem 2rem;
   }
 
   .tape-left {
@@ -976,6 +1000,18 @@
 
   .tape-right {
     right: -11%;
+  }
+
+.work-tit{
+  font-size: 2.6rem;
+}
+
+  .link-review {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    display: flex;
+    gap: 2rem;
   }
 
   #s2 .s2bkico {
@@ -1008,13 +1044,10 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
   }
 
-  .project-lst li {
-    width: 48rem;
-  }
 
   .card {
     width: 100%;
@@ -1024,11 +1057,9 @@
     width: 3rem;
   }
 
-  .content-card{
-    height: 22rem;
-  }
 
-  #s4 .s4bkico{
+
+  #s4 .s4bkico {
     right: 4rem;
   }
 
@@ -1088,6 +1119,27 @@
 }
 
 @media screen and (max-width:599px) {
+
+  .sen-tit,
+  .hig-tit {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .sen-tit img,
+  .hig-tit img {
+    width: 80%;
+  }
+
+  .sen-tit span,
+  .hig-tit span {
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    display: block;
+  }
+
   .content-card {
     width: 100%;
   }
@@ -1112,12 +1164,40 @@
     width: 60%;
   }
 
+.hash{
+  display: none;
+}
+
+.link-review{
+  bottom: 1.5rem;
+  right: 0;
+}
+
   .tape-left {
     bottom: -4rem;
   }
 
   .pf-con {
     height: auto;
+  }
+
+  .project-lst li,
+  .content-lst li {
+    width: 90%;
+  }
+
+  .ft-ico {
+    left: calc(50% - 5rem);
+    top: calc(50% + 7rem);
+  }
+
+  .footer-lg {
+    width: 35rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: auto;
+    top: 50%;
+
   }
 }
 
