@@ -90,7 +90,7 @@
   }
 
   .sen-tit span {
-    left: 13%;
+    left: 25%;
   }
 
   #s2 .s2bkico {
@@ -155,11 +155,11 @@
   }
 
   #s5 .rel::after {
-    right: calc(50% - 64rem);
+    right: calc(50% - 80.5rem);
   }
 
   #s5 .rel::before {
-    left: calc(50% - 64rem);
+    left: calc(50% - 80.5rem);
   }
 
 }
@@ -175,6 +175,15 @@
 
   #s0 .rel::before {
     left: -.5rem;
+  }
+
+
+  #s5 .rel::after {
+    right: calc(50% - 75.5rem);
+  }
+
+  #s5 .rel::before {
+    left: calc(50% - 75.5rem);
   }
 
 }
@@ -368,7 +377,7 @@
 
   .sen-tit span {
     font-size: 3.2rem;
-    left: 20%;
+    left: 31%;
   }
 
   .sen-tit img {
@@ -409,7 +418,7 @@
 
   .hig-tit span {
     font-size: 3.2rem;
-    left: 30%;
+    left: 31%;
   }
 
   .hig-tit img {
@@ -968,6 +977,15 @@
 }
 
 @media screen and (max-width:799px) {
+  .s0-tit-2 {
+    width: 24rem;
+  }
+
+  .s0-tit-1 {
+    width: 30rem;
+    left: calc(50% - 34rem);
+  }
+
   .card {
     height: 22rem;
   }
@@ -1119,6 +1137,24 @@
 }
 
 @media screen and (max-width:599px) {
+  .s0-tit-1 {
+    width: 19rem;
+    left: 10%;
+  }
+
+  .s0-tit-2 {
+    left: 65%;
+    width: 16rem;
+    top: 47%;
+  }
+
+  #s0 .tag {
+    display: none;
+  }
+
+  .project {
+    font-size: 2rem;
+  }
 
   .sen-tit,
   .hig-tit {
@@ -1126,9 +1162,23 @@
     padding: 2rem 0;
   }
 
+  .mid-tit img,
   .sen-tit img,
   .hig-tit img {
     width: 80%;
+  }
+
+  .mid-tit {
+    left: 55%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    display: block;
+  }
+
+  .mid-tit span {
+    left: 14%;
+    top: 10%;
   }
 
   .sen-tit span,
@@ -1169,8 +1219,8 @@
   }
 
   .link-review {
-    bottom: 1.5rem;
-    right: 0;
+    bottom: 3rem;
+    right: 1.5rem;
   }
 
   .tape-left {
@@ -1187,8 +1237,9 @@
   }
 
   .ft-ico {
-    left: calc(50% - 5rem);
+    left: calc(50% - 0rem);
     top: calc(50% + 7rem);
+    width: 25rem;
   }
 
   .footer-lg {
@@ -1197,7 +1248,16 @@
     transform: translate(-50%, -50%);
     right: auto;
     top: 50%;
+  }
 
+  #s4 .s4bkico{
+    right: -2rem;
+    height: 12rem;
+  }
+
+  #s4 .s4bkico1{
+    height: 10rem;
+    left: -2rem;
   }
 }
 
@@ -1213,10 +1273,6 @@
   #s0 .rel {
     border-left: none;
     border-right: none;
-  }
-
-  #s0 .tag {
-    display: none;
   }
 
   .s0-tit-1 {
@@ -1307,6 +1363,10 @@
     display: none;
   }
 
+  .mid-tit {
+    left: 40%;
+  }
+
   .mid-tit img {
     width: 30rem;
   }
@@ -1314,7 +1374,7 @@
   .mid-tit span {
     font-size: 2rem;
     -webkit-text-stroke: 0.03rem #000;
-    top: 46%;
+    top: 8%;
   }
 
 
@@ -1346,7 +1406,7 @@
 
   #s2 .s2bkico {
     width: 7.7rem;
-    top: 25%;
+    top: 5%;
   }
 
   #s2 .s2bkicon1 {

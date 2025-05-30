@@ -127,6 +127,7 @@ header .main-nav a {
 /* s0 */
 #s0 {
     background: url(../img/background.png) repeat;
+    z-index: 2;
 }
 
 #s0:after {
@@ -570,12 +571,13 @@ header .main-nav a {
 }
 
 .hash {
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     font-size: 1.4rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.87);
     letter-spacing: normal;
 }
+
 
 .link-review {
     /* width: 40.2rem; */
@@ -686,7 +688,7 @@ header .main-nav a {
 .sen-tit span {
     position: absolute;
     top: 12rem;
-    left: 15%;
+    left: 25%;
     font-weight: bold;
     font-size: 4rem;
     color: white;
@@ -734,7 +736,7 @@ header .main-nav a {
     margin-bottom: 2rem;
 }
 
-.card:hover.hash-tags {
+.card:hover.hashs {
     color: #000000;
 }
 
@@ -1048,7 +1050,7 @@ header .main-nav a {
     width: 100vw;
     height: 50rem;
     background: url(../img/background.png)no-repeat center/cover;
-    z-index: -1;
+    z-index: -2;
 }
 
 .footer-lg {
